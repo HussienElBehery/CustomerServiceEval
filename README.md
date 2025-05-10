@@ -67,35 +67,3 @@ Aggregates metrics into dashboards and reports, enabling managers to monitor tea
 [ Performance Dashboard ]
 ```
 
-## Installation
-
-To set up the project locally:
-
-```bash
-git clone https://github.com/yourusername/customer-service-evaluator.git
-cd customer-service-evaluator
-pip install -r requirements.txt
-```
-
-## Usage
-
-1. **Start the app**:
-
-   ```bash
-   python app.py
-   ```
-2. **Upload your CSV** file with columns: `chat_log`, `coherence`, `relevance`, `politeness`, `resolution`.
-3. **Visit** `http://localhost:7860` in your browser.
-4. **Explore** the dashboard to view metrics, summaries, and reports.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-*Developed by Hussien et al., Nile University (2025)*
